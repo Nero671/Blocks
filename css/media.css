@@ -1,0 +1,35 @@
+@media (max-width: 1023px) and (min-width: 768px) {
+  .slider-wrap {
+    padding: 0;
+  }
+  .slider {
+    flex-wrap: nowrap;
+  }
+  .slider-item {
+    flex-basis: auto;
+  }
+  .arrow {
+    display: block;
+  }
+  .dots {
+    display: flex;
+  }
+}
+
+@media(max-width: 767px) {
+  .arrow {
+    display: none;
+  }
+  .dots {
+    display: none;
+  }
+  .slider {
+    flex-direction: column;
+  }
+  .btn-block {
+    display: block;
+  }
+  .slider-item {
+    display: none;
+  }
+}
